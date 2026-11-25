@@ -43,7 +43,7 @@ import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends Activity {
     private static final String TAG = "LightPanelTime";
-    private static final String URL = "http://lightpanel.local:8089";
+    private static final String URL = "http://192.168.1.50:8089";
     private static final long TWELVE_HOURS_MS = 12L * 60 * 60 * 1000;
     private final Handler mainHandler = new Handler(Looper.getMainLooper());
     private final ExecutorService worker = Executors.newSingleThreadExecutor();
